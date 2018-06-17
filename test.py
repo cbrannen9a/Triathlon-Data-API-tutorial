@@ -2,7 +2,7 @@ import requests
 import json
 from pprint import pprint
 
-apikey = 'YOUR_APP_KEY'
+apikey = 'YOUR_API_KEY'
 url = 'https://api.triathlon.org/v1/statistics/results?'
 query = 'analysis=count_unique&target_property=event.name&group_by=event.name|program.id|program.name'
 local_filename = 'test.txt'
