@@ -10,7 +10,7 @@ local_filename = 'test.txt'
 params = {}
 headers = {'content-type': 'application/json',
            'Accept-Charset': 'UTF-8', 'apikey': apikey}
-r = requests.get(url + query.format(75945),
+r = requests.get(url + query.format('75945'),
                  headers=headers, params=params, stream=True)
 
 with open(local_filename, 'wb') as f:
